@@ -11,6 +11,7 @@
 		AC30C7441E2C8E7F00635320 /* del_ch1_copy_ch2.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C7421E2C8E7F00635320 /* del_ch1_copy_ch2.c */; };
 		AC30C7481E2C8F1000635320 /* c_string_traverse.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C7461E2C8F1000635320 /* c_string_traverse.c */; };
 		AC30C74C1E2C8F8C00635320 /* zero_one_change_count.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C74A1E2C8F8C00635320 /* zero_one_change_count.c */; };
+		AC30C7501E2C9D0A00635320 /* ReplaceSpace.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C74E1E2C9D0A00635320 /* ReplaceSpace.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		AC30C7471E2C8F1000635320 /* c_string_traverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_string_traverse.h; sourceTree = "<group>"; };
 		AC30C74A1E2C8F8C00635320 /* zero_one_change_count.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zero_one_change_count.c; sourceTree = "<group>"; };
 		AC30C74B1E2C8F8C00635320 /* zero_one_change_count.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zero_one_change_count.h; sourceTree = "<group>"; };
+		AC30C74E1E2C9D0A00635320 /* ReplaceSpace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReplaceSpace.c; sourceTree = "<group>"; };
+		AC30C74F1E2C9D0A00635320 /* ReplaceSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceSpace.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		AC30C7391E2C8E5300635320 /* CPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AC30C74D1E2C9CEB00635320 /* ReplaceSpace */,
 				AC30C7491E2C8F7300635320 /* ZeroOneChangeCount */,
 				AC30C7451E2C8EE400635320 /* CStringTraverse */,
 				AC30C7411E2C8E5C00635320 /* DelCh1CopyCh2 */,
@@ -99,6 +103,15 @@
 				AC30C74B1E2C8F8C00635320 /* zero_one_change_count.h */,
 			);
 			name = ZeroOneChangeCount;
+			sourceTree = "<group>";
+		};
+		AC30C74D1E2C9CEB00635320 /* ReplaceSpace */ = {
+			isa = PBXGroup;
+			children = (
+				AC30C74E1E2C9D0A00635320 /* ReplaceSpace.c */,
+				AC30C74F1E2C9D0A00635320 /* ReplaceSpace.h */,
+			);
+			name = ReplaceSpace;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC30C7501E2C9D0A00635320 /* ReplaceSpace.c in Sources */,
 				AC30C7481E2C8F1000635320 /* c_string_traverse.c in Sources */,
 				AC30C73B1E2C8E5300635320 /* main.c in Sources */,
 				AC30C74C1E2C8F8C00635320 /* zero_one_change_count.c in Sources */,
@@ -288,6 +302,7 @@
 				AC30C7401E2C8E5300635320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
