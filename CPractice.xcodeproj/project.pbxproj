@@ -12,6 +12,8 @@
 		AC30C7481E2C8F1000635320 /* c_string_traverse.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C7461E2C8F1000635320 /* c_string_traverse.c */; };
 		AC30C74C1E2C8F8C00635320 /* zero_one_change_count.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C74A1E2C8F8C00635320 /* zero_one_change_count.c */; };
 		AC30C7501E2C9D0A00635320 /* ReplaceSpace.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C74E1E2C9D0A00635320 /* ReplaceSpace.c */; };
+		AC30C7541E2CACAA00635320 /* AsteriskSwap.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C7521E2CACAA00635320 /* AsteriskSwap.c */; };
+		AC30C7581E2CB74A00635320 /* Swap.c in Sources */ = {isa = PBXBuildFile; fileRef = AC30C7561E2CB74A00635320 /* Swap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		AC30C74B1E2C8F8C00635320 /* zero_one_change_count.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zero_one_change_count.h; sourceTree = "<group>"; };
 		AC30C74E1E2C9D0A00635320 /* ReplaceSpace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReplaceSpace.c; sourceTree = "<group>"; };
 		AC30C74F1E2C9D0A00635320 /* ReplaceSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceSpace.h; sourceTree = "<group>"; };
+		AC30C7521E2CACAA00635320 /* AsteriskSwap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AsteriskSwap.c; sourceTree = "<group>"; };
+		AC30C7531E2CACAA00635320 /* AsteriskSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsteriskSwap.h; sourceTree = "<group>"; };
+		AC30C7561E2CB74A00635320 /* Swap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Swap.c; sourceTree = "<group>"; };
+		AC30C7571E2CB74A00635320 /* Swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,8 @@
 		AC30C7391E2C8E5300635320 /* CPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AC30C7551E2CB72E00635320 /* Utils */,
+				AC30C7511E2CAC6C00635320 /* AsteriskSwap */,
 				AC30C74D1E2C9CEB00635320 /* ReplaceSpace */,
 				AC30C7491E2C8F7300635320 /* ZeroOneChangeCount */,
 				AC30C7451E2C8EE400635320 /* CStringTraverse */,
@@ -112,6 +120,24 @@
 				AC30C74F1E2C9D0A00635320 /* ReplaceSpace.h */,
 			);
 			name = ReplaceSpace;
+			sourceTree = "<group>";
+		};
+		AC30C7511E2CAC6C00635320 /* AsteriskSwap */ = {
+			isa = PBXGroup;
+			children = (
+				AC30C7521E2CACAA00635320 /* AsteriskSwap.c */,
+				AC30C7531E2CACAA00635320 /* AsteriskSwap.h */,
+			);
+			name = AsteriskSwap;
+			sourceTree = "<group>";
+		};
+		AC30C7551E2CB72E00635320 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC30C7561E2CB74A00635320 /* Swap.c */,
+				AC30C7571E2CB74A00635320 /* Swap.h */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +199,10 @@
 			files = (
 				AC30C7501E2C9D0A00635320 /* ReplaceSpace.c in Sources */,
 				AC30C7481E2C8F1000635320 /* c_string_traverse.c in Sources */,
+				AC30C7541E2CACAA00635320 /* AsteriskSwap.c in Sources */,
 				AC30C73B1E2C8E5300635320 /* main.c in Sources */,
 				AC30C74C1E2C8F8C00635320 /* zero_one_change_count.c in Sources */,
+				AC30C7581E2CB74A00635320 /* Swap.c in Sources */,
 				AC30C7441E2C8E7F00635320 /* del_ch1_copy_ch2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
